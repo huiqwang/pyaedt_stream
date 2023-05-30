@@ -8,7 +8,7 @@
   * [skrf](python-ji-pyaedt-tao-jian-an-zhuang/skrf.md)
 * [Lab 1 輸出Hello World網頁](lab-1-shu-chu-hello-world-wang-ye.md)
 * [Lab 2 建立簡單計算機](lab-2-jian-li-jian-dan-ji-suan-ji.md)
-* [Lab 3 上傳S參數檔案並顯示](lab-3-shang-chuanscan-shu-dang-an-bing-xian-shi.md)
+* [Lab 3 上傳S參數檔案並顯示圖表](lab-3-shang-chuanscan-shu-dang-an-bing-xian-shi-tu-biao.md)
 * [Lab 3 建立天線模擬並返回S11圖](lab-3-jian-li-tian-xian-mo-ni-bing-fan-hui-s11-tu.md)
 * [Lab 4 檔案上傳並輸出Nets頁面](lab-4-dang-an-shang-chuan-bing-shu-chu-nets-ye-mian.md)
 * [Lab 5 完成模擬並下載檔案](lab-5-wan-cheng-mo-ni-bing-xia-zai-dang-an.md)
