@@ -1,4 +1,4 @@
-# Lab 3 上傳S參數檔案並顯示
+# Lab 3 上傳S參數檔案並顯示圖表
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -44,4 +44,4 @@ with st.form(key='my_form', clear_on_submit=True):
 ```
 {% endcode %}
 
-{% file src=".gitbook/assets/channel.s16p" %}
+{% file src=".gitbook/assets/AL_D_3_short.s4p" %}
