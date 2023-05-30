@@ -6,6 +6,11 @@ Streamlit是一個Python函式庫，可以用來建立互動式網頁伺服器�
 
 Streamlit支援各種數據科學庫，如Pandas、NumPy、Scikit-learn和TensorFlow等。它還支援Python的各種版本，從Python 3.6到Python 3.9都可以使用。
 
+{% hint style="info" %}
+安裝streamlit:\
+pip install streamlit
+{% endhint %}
+
 ### 各類範例
 
 {% embed url="https://streamlit.io/gallery" %}
