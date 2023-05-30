@@ -1,5 +1,7 @@
 # Lab 2 建立簡單計算機
 
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 {% code lineNumbers="true" %}
 ```python
 # 引入streamlit和math模組
