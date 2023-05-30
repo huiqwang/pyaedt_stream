@@ -4,7 +4,7 @@
 * [模擬民主(Simulation Democratization)](mo-ni-min-zhu-simulation-democratization.md)
 * [基本介紹](ji-ben-jie-shao.md)
 * [Streamlit框架](streamlit-kuang-jia.md)
-* [虛擬環境及套件安裝](xu-ni-huan-jing-ji-tao-jian-an-zhuang.md)
+* [Python及PyAEDT套件安裝](python-ji-pyaedt-tao-jian-an-zhuang.md)
 * [Lab 1 輸出Hello World網頁](lab-1-shu-chu-hello-world-wang-ye.md)
 * [Lab 2 建立單位轉換頁面](lab-2-jian-li-dan-wei-zhuan-huan-ye-mian.md)
 * [Lab 3 建立天線模擬並返回S11圖](lab-3-jian-li-tian-xian-mo-ni-bing-fan-hui-s11-tu.md)

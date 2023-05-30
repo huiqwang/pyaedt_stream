@@ -1,5 +1,7 @@
 # 基本介紹
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ### PyAEDT 的應用
 
 &#x20;PyAEDT 是一個基於 Python 的 Ansys Electronics Desktop (AEDT) 的 API，可用於進行電子設計自動化。通過使用 PyAEDT，工程師可以編寫程式碼以自動執行 AEDT 的模擬工作，例如建立幾何模型、設定邊界條件、選擇求解器等。
