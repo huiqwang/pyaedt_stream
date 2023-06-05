@@ -10,7 +10,7 @@
 * [Lab 2 建立簡單計算機](lab-2-jian-li-jian-dan-ji-suan-ji.md)
 * [Lab 3 上傳S參數檔案並顯示圖表](lab-3-shang-chuanscan-shu-dang-an-bing-xian-shi.md)
 * [Lab 4 輸入振幅及頻率並輸出圖片](lab-4-shu-ru-zhen-fu-ji-bin-shuai-bing-shu-chu-tu-pian.md)
-* [Lab 5 建立天線模擬並返回S11圖](lab-5-jian-li-tian-xian-mo-ni-bing-fan-hui-s11-tu.md)
+* [Lab 5 建立天線模擬並返回壓縮檔](lab-5-jian-li-tian-xian-mo-ni-bing-fan-hui-ya-suo-dang.md)
 * [Stramlit簡易雲的功能限制](stramlit-jian-yi-yun-de-gong-neng-xian-zhi.md)
 * [系統級的工程模擬平台](xi-tong-ji-de-gong-cheng-mo-ni-ping-tai.md)
 * [ANSYs Minerva](ansys-minerva.md)
