@@ -13,5 +13,5 @@
 * [Lab 5 建立天線模擬並返回壓縮檔](lab-5-jian-li-tian-xian-mo-ni-bing-fan-hui-ya-suo-dang.md)
 * [Stramlit簡易雲的功能限制](stramlit-jian-yi-yun-de-gong-neng-xian-zhi.md)
 * [系統級的工程模擬平台](xi-tong-ji-de-gong-cheng-mo-ni-ping-tai.md)
-* [ANSYs Minerva](ansys-minerva.md)
+* [ANSYS Minerva](ansys-minerva.md)
 * [問卷調查](wen-juan-diao-cha.md)
