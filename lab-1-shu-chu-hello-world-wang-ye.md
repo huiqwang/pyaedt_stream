@@ -14,7 +14,7 @@ description: 建立C:\demo目錄，所有.bat及.py檔皆存放在C:\demo目錄�
 {% code title="run.bat" %}
 ```
 @echo off
-streamlit run .\test.py
+C:\myvenv310\Scripts\streamlit run c:\demo\test.py --server.port 8501
 pause
 ```
 {% endcode %}
