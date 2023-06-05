@@ -1,6 +1,6 @@
 # Lab 3 上傳S參數檔案並顯示圖表
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" fullWidth="true" %}
 ```python
