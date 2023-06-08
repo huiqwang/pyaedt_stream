@@ -17,9 +17,15 @@ length = st.sidebar.number_input("Length(mm)", min_value=1.0, max_value=100.0, v
 
 
 if st.sidebar.button('Run'):
+    # length = 50
+    # freq0 = 2
+    # freq_low = 1
+    # freq_high = 3
+
+
     from pyaedt import Hfss
 
-    hfss = Hfss(specified_version='2022.2')
+    hfss = Hfss(specified_version='2023.1')
 
     hfss.change_material_override()
     hfss.change_automatically_use_causal_materials()
@@ -58,41 +64,36 @@ if st.sidebar.button('Run'):
     setup.props['MaximumPasses'] = 20
 
 
-    hfss.create_frequency_sweep(setupname='mysetup',
-                                unit='GHz',
-                                freqstart=0.1,
-                                freqstop=2,
-                                sweepname='mysweep',
-                                num_of_freq_points=101)
+    hfss.create_linear_step_sweep(setupname='mysetup',
+                                  unit='GHz',
+                                  freqstart=freq_low,
+                                  freqstop=freq_high,
+                                  step_size=0.1,
+                                  sweepname='mysweep',)
 
 
-    hfss['length'] = '{}mm'.format(length)
     hfss.analyze_nominal(num_cores=4)
 
-    result = hfss.post.get_report_data('dB(S11)', 'mysetup:mysweep')
-    result.plot()
+    result = hfss.post.get_solution_data('dB(S11)', 'mysetup:mysweep')
 
     s11 = result.data_real('dB(S11)')
     freq = result.primary_sweep_values
 
-    mins11, f0 = min(zip(s11, freq))
-
 
     import matplotlib.pyplot as plt
-    plt.grid()
+
 
     plt.title('{}mm dipole antenna return loss'.format(length))
     plt.xlabel('freq (GHz)')
     plt.ylabel('dB(S11)')
-
-    plt.text(f0, mins11, '{}GHz, {:.2f}dB'.format(f0, mins11))
+    plt.grid()
 
     plt.plot(freq, s11, c='r')
-    plt.savefig('c:/demo/s11_{}.png'.format(length))
-    
+    #plt.savefig('c:/demo/test.png')
+    #plt.clf()
+
     hfss.archive_project('c:/demo/test.aedtz')
     hfss.close_desktop()
-
 
     # Show the plot in Streamlit
     st.pyplot(plt)
