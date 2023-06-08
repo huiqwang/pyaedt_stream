@@ -81,8 +81,6 @@ if st.sidebar.button('Run'):
 
 
     import matplotlib.pyplot as plt
-
-
     plt.title('{}mm dipole antenna return loss'.format(length))
     plt.xlabel('freq (GHz)')
     plt.ylabel('dB(S11)')
